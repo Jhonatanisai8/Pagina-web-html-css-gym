@@ -157,3 +157,33 @@ section {
     box-shadow: 5px 6px 7px #ddd;
     margin-right: 30px;
 }
+
+.footer {
+    border-top: 1px solid #00A5CF;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+.footer h3 {
+    color: #00A5CF;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    margin-right: 35px;
+}
+
+.links ul li a {
+    color: #00A5CF;
+}
+
+.footer-text {
+    justify-content: center;
+}
