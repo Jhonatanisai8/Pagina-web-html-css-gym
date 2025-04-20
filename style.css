@@ -10,7 +10,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #00A5CF;
+    background-color: #080708;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 
 .header {
     color: #F6F7F8;
-    background-image: url(imgs/bg2.png);
+    background-image: url(imgs/bg3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,10 @@ body {
     margin-bottom: 35px;
 }
 
-.btn-1 {
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4 {
     display: inline-block;
     padding: 10px 35px;
     background-color: #00A5CF;
@@ -108,7 +111,49 @@ body {
     text-transform: uppercase;
 }
 
-.btn-1:hover {
-    background-color: #fff;
-    color: #011627;
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover {
+    background-color: #E9724C;
+    color: #F6F7F8;
+}
+
+.gym {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.gym-1 {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.gym-1 h2 {
+    font-size: 40px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+section {
+    color: #F6F7F8;
+}
+
+.gym-1 p {
+    font-size: 16px;
+    color: #F6F7F8;
+}
+
+.gym-1 span {
+    color: #00A5CF;
+}
+
+.img-1,
+.img-2 {
+    width: 250px;
+    box-shadow: 5px 6px 7px #ddd;
+    margin-right: 20px;
 }
