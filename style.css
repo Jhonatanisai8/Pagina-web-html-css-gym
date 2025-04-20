@@ -58,7 +58,7 @@ body {
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #F6F7F8;
+    color: #00A5CF;
     display: block;
 }
 
@@ -186,4 +186,88 @@ section {
 
 .footer-text {
     justify-content: center;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #fff;
+    }
+
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header-content {
+        padding: 30px;
+    }
+
+    .header-info h1 {
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+
+    .gym {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .gym-1 {
+        width: 100%;
+        padding: 0;
+        order: 1;
+    }
+
+    .gym-1 h2 {
+        margin-bottom: 15px;
+    }
+
+    .btn-2 {
+        margin-bottom: 35px;
+    }
+
+    .gym-2 {
+        order: 2;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-1,
+    .img-2 {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .footer h3 {
+        margin-bottom: 15px;
+    }
+
+    .links ul li {
+        margin: 0;
+    }
 }
